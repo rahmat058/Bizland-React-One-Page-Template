@@ -6,6 +6,7 @@ import './assets/css/main.css'
 import Navbar from './components/navbar'
 import Boxes from './components/boxes'
 import About from './components/about'
+import Testimonials from './components/testimonial'
 
 class App extends Component {
 
@@ -29,6 +30,7 @@ class App extends Component {
         <Navbar />
         <Boxes />
         <About />
+        <Testimonials />
       </div>
     );
   }
