@@ -4,6 +4,7 @@ import M from 'materialize-css'
 import './assets/css/main.css'
 
 import Navbar from './components/navbar'
+import Boxes from './components/boxes'
 
 class App extends Component {
 
@@ -25,6 +26,7 @@ class App extends Component {
     return (
       <div>
         <Navbar />
+        <Boxes />
       </div>
     );
   }
