@@ -5,6 +5,7 @@ import './assets/css/main.css'
 
 import Navbar from './components/navbar'
 import Boxes from './components/boxes'
+import About from './components/about'
 
 class App extends Component {
 
@@ -27,6 +28,7 @@ class App extends Component {
       <div>
         <Navbar />
         <Boxes />
+        <About />
       </div>
     );
   }
