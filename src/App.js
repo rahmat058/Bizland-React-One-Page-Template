@@ -7,30 +7,35 @@ import Navbar from './components/navbar'
 import Boxes from './components/boxes'
 import About from './components/about'
 import Testimonials from './components/testimonial'
+import Footer from './components/footer'
 
 class App extends Component {
 
-  // componentDidMount() {
-  //   const options = [
-  //     {
-  //       selector: '.main-text',
-  //       offset: 0,
-  //       callback: function(el) {
-  //         Materialize.fadeInImage(el)
-  //       }
-  //     }
-  //   ]
+  componentDidMount() {
+    // const options = [
+    //   {
+    //     selector: '.main-text',
+    //     offset: 0,
+    //     callback: function(el) {
+    //       Materialize.fadeInImage(el)
+    //     }
+    //   }
+    // ]
 
-  //   Materialize.scrollFire(options)
-  // }
+    // Materialize.scrollFire(options)
+
+    let sp = document.querySelectorAll('.scrollspy');
+    M.ScrollSpy.init(sp, {});
+  }
   
   render() {
     return (
-      <div>
+      <div id='home' className='scrollspy'>
         <Navbar />
         <Boxes />
         <About />
         <Testimonials />
+        <Footer />
       </div>
     );
   }

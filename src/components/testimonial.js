@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Testimonials extends Component {
   render() {
     return (
-      <section className="section section-testimonials blue white-text center">
+      <section id='testimonials' className="section section-testimonials blue white-text center scrollspy">
         <div className="container">
           <h2>What Our Clients Say</h2>
           <div className="row">

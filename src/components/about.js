@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class About extends Component {
   render() {
     return (
-      <section className="section section-about grey lighten-3 center">
+      <section id='about' className="section section-about grey lighten-3 center scrollspy">
         <div className="container">
           <h2>About Buizland</h2>
           <p className="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, perferendis. Fugiat libero quod harum perspiciatis molestias accusantium exercitationem assumenda quasi?</p>
